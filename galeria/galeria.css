@@ -1,0 +1,52 @@
+header{
+    padding-left: 300px;
+    padding-right: 1020px;
+}
+h1{
+    font-family: Courier New, bold;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: Courier New;
+    font-size: 20px;
+    background-color: skyblue;
+    color: white;
+}
+
+main{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+img{
+  width: 33%;
+  height: auto; 
+  max-width: 235px;
+  margin: 10px;
+}
+
+.tamaño{
+  width: 227px;
+}
+
+.tamaño2{
+  height: 190px;
+}
+
+.shadow{
+  filter: drop-shadow(9px 9px 10px lightskyblue);
+}
+
+a.shadow:hover{
+    filter: none;
+}
+
+a.grayscale{
+    filter: grayscale(50%);
+}
+
+a.grayscale:hover{
+    filter:none;
+}
