@@ -1,0 +1,68 @@
+@font-face {
+  font-family: AngelineVintageDemo;
+  src: url(fonts/AngelineVintageDemo.ttf);
+}
+
+body{
+    background-color: beige;
+}
+tr{
+    background-color: white;
+}
+
+td{
+    padding: 45px;
+    border:2px dotted #9999CC;
+    font-size: 14px;
+}
+
+span{
+    font-size: 24px;
+}
+
+.bold{
+    font-size: 14px;
+    font-style: italic;
+}
+
+a{
+    color:skyblue;
+}
+
+#uno{
+    font-family: 'Bellota',cursive;
+}
+
+
+#dos{
+    font-family: 'Expletus Sans', cursive;
+    
+}
+
+#tres{
+    font-family: 'Mali', cursive;
+}
+
+#cuatro{
+    font-family: 'Marvel', sans-serif;
+}
+
+#cinco{
+    font-family: 'Poppins', sans-serif;
+}
+
+#seis{
+    font-family: 'Raleway', sans-serif;
+}
+
+#siete{
+    font-family: 'Roboto', sans-serif;
+}
+
+#ocho{
+    font-family: 'Spectral SC', serif;
+}
+
+#nueve{
+    font-family: AngelineVintageDemo;
+}
