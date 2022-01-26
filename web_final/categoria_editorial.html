@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Editorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lightbox2/css/lightbox.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+  &family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+      *{
+          font-family: 'Amatic SC', cursive;
+      }
+       h1{
+          font-size: 50px;
+          font-weight: bold;
+          -webkit-transform: rotate(-90deg); 
+           
+          width:300px;
+          text-decoration:underline 3px; 
+          text-decoration-style: wavy;
+          text-decoration-color: #abdefa;
+      }
+      h2{
+          font-size: 40px;
+          font-weight: bold;
+          background-color: #abdefa;
+          border-radius: 20px;
+          color: white;
+          padding-left: 20px;
+      }
+      p{
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: gray;
+      }
+      .derecha{
+          padding-right: 30px;
+      }
+      #izq{
+          text-align: end;
+      }
+      #titulo1{
+          margin-right: 120px;
+      }
+      #titulo2{
+           margin-left: 150px;
+      }
+      #titulo3{
+          margin-right: 150px;
+      }
+      img{
+          width: 48%;
+          margin-right: 8px;
+          margin-bottom: 8px;
+          border-radius: 20px;
+      }
+      img:hover{
+          opacity: 0.7;
+      }
+      #revista{
+          margin-left: 200px;
+      }
+      #primero{
+          padding-top: 30px;
+      }
+      #segundo{
+          padding-top: 60px;
+      }
+       #tercero{
+           padding-top: 60px;
+      }
+       #lightbox .lb-caption {
+          font-family: Calibri;
+          font-weight: 300;
+          font-size: 15px;
+      }
+      @media (max-width: 1200px) { 
+          h1 {
+            margin-left: -10vh;
+          }
+          h2{
+          font-size: 30px;
+          padding-left: 5px;
+          }
+          #titulo2{
+          margin-left: 70px;
+          }
+           #titulo3{
+               margin-right: 60px;
+          }
+          p{
+          font-size: 14px;
+          }
+          .portadas{
+              width: 450px;
+              height: auto;
+          }
+          #revista{
+              width: 300px;
+              height: auto;
+              margin-left: 150px;
+          }
+      }
+      @media (max-width: 768px) {
+          h1{
+          font-size: 30px;
+          font-weight: bold;
+          -webkit-transform: rotate(-90deg); 
+          width:200px;
+          text-decoration:underline 2px; 
+          text-decoration-style: wavy;
+          text-decoration-color: #abdefa;
+          }
+          #titulo1{
+          margin-right: 20px;
+          }
+          #titulo2{
+          margin-left: 50px;
+          }
+          #titulo3{
+          margin-right: 20px;
+          }
+          h2{
+          font-size: 12px;
+          margin-left: -20px;
+          border-radius: 5px;
+          }
+          p{
+          font-size: 10px;
+          margin-left: -20px;
+          margin-right: -5px;
+          }
+          .portadas{
+          width: 200px;
+          height: auto;
+          margin-left: -10px;
+          }
+          #info{
+          width: 150px;
+          height: auto;
+          }
+          #revista{
+          width: 200px;
+          height: auto;
+          margin-left: -22px;
+          }
+      }   
+  </style>
+</head>
+    
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="categoria" class="col-2">
+                <h1>EDITORIAL</h1>
+            </div>
+            <div class="col-10">
+               <div id="primero"  class="row">
+               <div id="caja1" class="col-8">
+                   <a href="img/cubierta0.jpg" data-lightbox="ejemplo" data-title="Rediseño de sobrecubierta de Idiotizadas de Moderna de Pueblo."><img class="portadas" src="img/cubierta0.jpg" title="Idiotizadas" alt="Rediseño de sobrecubierta de Idiotizadas de Moderna de Pueblo."></a> 
+                   <a href="img/cubierta1.jpg" data-lightbox="ejemplo" data-title="Rediseño de sobrecubierta de Soy de pueblo de Moderna de Pueblo."><img class="portadas" src="img/cubierta1.jpg" title="Soy de pueblo" alt="Rediseño de sobrecubierta de Soy de pueblo de Moderna de Pueblo."></a> 
+               </div>    
+               <div class="col-4">
+                   <div id="titulo1">
+                   <h2>Moderna de Pueblo</h2>
+                   </div>
+                   <p class="derecha">Sobrecubiertas de los libros gráficos de Moderna de Pueblo. Son rediseños de Idiotizadas y Soy de pueblo, inspirado en su contenido y tomándola como referente en cuanto a la estética.</p>
+               </div>
+               </div>
+               <div id="segundo" class="row">
+               <div class="col-4">
+                   <div id="titulo2">
+                   <h2>Deporte femenino</h2>
+                   </div>
+                   <p id="izq">Infografía basada en el deporte femenino, con estadísticas salariales, deportivas de Alto Nivel y Licencias Federadas en comparación con los hombres desde el 2012 hasta el 2019.</p>
+               </div>
+               <div class="col-8">
+                   <a href="img/infografia.jpg" data-lightbox="ejemplo" data-title="Infografía en formato A3 con gráficos de la mujer en el deporte."><img id="info" src="img/infografia.jpg" title="Infografía" alt="Infografía en formato A3 con gráficos de la mujer en el deporte."></a> 
+               </div>
+               </div>
+               <div id="tercero" class="row">
+               <div class="col-8">
+                   <a href="https://issuu.com/stephanymarinramirez/docs/revista_virtual"><img id="revista" src="img/disenyate.jpg" title="Revista Diséñate" alt="Diséñate es una revista de diseño gráfico que muestra los trabajos y entrevistas de los grandes referentes como Raquel Pelta o Stefan Sagmeister, entre muchos otros."></a> 
+               </div>
+               <div class="col-4">
+                   <div id="titulo3">
+                   <h2>Revista Diséñate</h2>
+                   </div>
+                   <p class="derecha">Diséñate es una revista de diseño gráfico que muestra los trabajos y entrevistas de los grandes referentes como Raquel Pelta o Stefan Sagmeister, entre muchos otros.</p>
+               </div>
+                <script src="lightbox2/js/lightbox-plus-jquery.min.js"></script>
+               </div>
+            </div>
+        </div>
+    </div>
+     
+</body>
+</html>
