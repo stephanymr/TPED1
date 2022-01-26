@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fotografía</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lightbox2/css/lightbox.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+  &family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,400;0,900;1,700&display=swap" rel="stylesheet">
+  <style>
+      *{
+          font-family: 'Amatic SC', cursive;
+      }
+       h1{
+          font-size: 50px;
+          font-weight: bold;
+          -webkit-transform: rotate(-90deg); 
+          width:300px;
+          text-decoration:underline 3px; 
+          text-decoration-style: wavy;
+          text-decoration-color: #abdefa;
+      }
+      h2{
+          font-size: 40px;
+          font-weight: bold;
+          background-color: #abdefa;
+          border-radius: 20px;
+          color: white;
+          padding-left: 20px;
+      }
+      p{
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: gray;
+      }
+      .derecha{
+          padding-right: 30px;
+      }
+      #izq{
+          text-align: end;
+      }
+      #titulo1{
+          padding-right: 54%;
+      }
+      #titulo2{
+          padding-left: 69%;
+      }
+      #titulo3{
+          padding-right: 80%;
+      }
+      img{
+          width: 32%;
+          margin-right: 8px;
+          margin-bottom: 8px;
+          border-radius: 20px;
+      }
+      img:hover{
+          opacity: 0.7;
+      }
+      #primero{
+          padding-top: 30px;
+      }
+      #segundo{
+          padding-top: 60px;
+      }
+       #tercero{
+           padding-top: 60px;
+      }
+      #lightbox .lb-caption {
+          font-family: Calibri;
+          font-weight: 300;
+          font-size: 15px;
+      }
+    
+      @media (max-width: 1200px) { 
+          h1 {
+          margin-left: -10vh;
+          }
+          h2{
+          font-size: 30px;
+          padding-left: 5px;
+          }
+          p{
+          font-size: 14px;
+          }
+          .imgizq{
+          margin-left: 140px;
+          width: 300px;
+          height: auto;
+          }
+          .imgderech{
+          margin-right: 140px;
+          width: 300px;
+          height: auto;
+          }
+      }
+      @media (max-width: 768px) {
+          h1{
+          font-size: 30px;
+          font-weight: bold;
+          -webkit-transform: rotate(-90deg); 
+          width:200px;
+          text-decoration:underline 2px; 
+          text-decoration-style: wavy;
+          text-decoration-color: #abdefa;
+          }
+          .imgizq{
+          margin-left: 20px;
+          width: 140px;
+          height: auto;
+          }
+          .imgderech{
+          margin-right: 20px;
+          width: 140px;
+          height: auto;
+          }
+          h2{
+          font-size: 12px;
+          margin-left: -20px;
+          border-radius: 5px;
+          }
+          p{
+          font-size: 10px;
+          margin-left: -20px;
+          }
+      }   
+  </style>
+</head>
+    
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="categoria" class="col-2">
+                <h1>FOTOGRAFÍA</h1>
+            </div>
+            <div class="col-10">
+               <div id="primero"  class="row">
+               <div id="caja1" class="col-8">
+                   <a href="img/gato1.jpg" data-lightbox="ejemplo" data-title="Negro bostezando"><img class="imgizq" src="img/gato1.jpg" title="Gato 1" alt="Negro bostezando."></a> 
+                   <a href="img/gato2.jpg" data-lightbox="ejemplo" data-title="Trol dormido"><img class="imgizq" src="img/gato2.jpg" title="Gato 2" alt="Trol apoyado en la mano mientras duerme."></a> 
+                   <a href="img/gato3.jpg" data-lightbox="ejemplo" data-title="Trol navideño"><img class="imgizq" src="img/gato3.jpg" title="Gato 3" alt="Trol con luces de navidad."></a> 
+                   <a href="img/gato4.jpg" data-lightbox="ejemplo" data-title="Trol en la ventana"><img class="imgizq" src="img/gato4.jpg" title="Gato 4" alt="Trol mirando por la ventana."></a> 
+                   <a href="img/gato5.jpg" data-lightbox="ejemplo" data-title="Nariz de Trol"><img class="imgizq" src="img/gato5.jpg" title="Gato 5" alt="Nariz de Trol al detalle."></a> 
+                   <a href="img/gato6.jpg" data-lightbox="ejemplo" data-title="Trol con nubes"><img class="imgizq" src="img/gato6.jpg" title="Gato 6" alt="Trol con un fondo de cielo con nubes."></a> 
+               </div> 
+               <div class="col-4">
+                   <div id="titulo1">
+                   <h2>Christmas cats</h2>
+                   </div>
+                   <p class="derecha">Serie de fotografías inspiradas en el día a día con mis gatos Trol y Negro en vacaciones de Navidad.</p>
+               </div>
+               </div>
+               <div id="segundo" class="row">
+               <div class="col-4">
+                   <div id="titulo2">
+                   <h2>Rainbow</h2>
+                   </div>
+                   <p id="izq">Álbum fotográfico con colores planos y el nombre RAINBOW fue seleccionado por los colores que se emplean son los del arcoiris.</p>
+               </div>
+               <div class="col-8">
+                   <a href="img/rainbow1.jpg" data-lightbox="ejemplo" data-title="Color lila del arcoiris."><img class="imgderech" src="img/rainbow1.jpg" title="Lila" alt="Color lila del arcoiris."></a>
+                   <a href="img/rainbow2.jpg" data-lightbox="ejemplo" data-title="Color azul del arcoiris."><img class="imgderech" src="img/rainbow2.jpg" title="Azul" alt="Color azul del arcoiris."></a> 
+                   <a href="img/rainbow3.jpg" data-lightbox="ejemplo" data-title="Color verde del arcoiris."><img class="imgderech" src="img/rainbow3.jpg" title="Verde" alt="Color verde del arcoiris."></a> 
+                   <a href="img/rainbow4.jpg" data-lightbox="ejemplo" data-title="Color amarillo del arcoiris."><img class="imgderech" src="img/rainbow4.jpg" title="Amarillo" alt="Color amarillo del arcoiris."></a> 
+                   <a href="img/rainbow5.jpg" data-lightbox="ejemplo" data-title="Color naranja del arcoiris."><img class="imgderech" src="img/rainbow5.jpg" title="Naranja" alt="Color naranja del arcoiris."></a> 
+                   <a href="img/rainbow6.jpg" data-lightbox="ejemplo" data-title="Color rojo del arcoiris."><img class="imgderech" src="img/rainbow6.jpg" title="Rojo" alt="Color rojo del arcoiris."></a> 
+               </div>
+               </div>
+               <div id="tercero" class="row">
+               <div class="col-8">
+                   <a href="img/25n.jpg" data-lightbox="ejemplo" data-title="Foto original sin editar"><img class="imgizq" src="img/25n.jpg" title="Foto original" alt="Fotografía sin editar."></a> 
+                   <a href="img/25n1.jpg" data-lightbox="ejemplo" data-title="Fotografía color editado"><img class="imgizq" src="img/25n1.jpg" title="Foto editada color" alt="Fotografía color editado."></a>
+                   <a href="img/25n2.jpg" data-lightbox="ejemplo" data-title="Fotografía editada en color y texto para cartel 25N."><img class="imgizq" src="img/25n2.jpg" title="Foto editada color y texto" alt="Fotografía editada en color y texto para cartel 25N."></a> 
+               </div>
+               <div class="col-4">
+                   <div id="titulo3">
+                   <h2>25N</h2>
+                   </div>
+                   <p class="derecha">Cartel para el día 25N, Día Internacional de la Eliminación de la Violencia contra las Mujeres.</p>
+               </div>
+                <script src="lightbox2/js/lightbox-plus-jquery.min.js"></script>
+               </div>
+            </div>
+        </div>
+    </div>
+     
+</body>
+</html>
